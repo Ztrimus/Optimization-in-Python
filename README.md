@@ -80,7 +80,10 @@ Python Modules to measure time:
  	%lprun -f fn_to_display fn_to_run(args)
  	```
 ## Tracing Memory Allocations
-<p align="center"><img src="https://raw.githubusercontent.com/SBZed/Optimization-in-Python/master/memory_latency.PNG" width="700" title="Memory Latency" alt="Memory Latency"></p>
+<p align="center">
+	<p1><b>Memory Latency</b></p1><br>
+	<img src="https://raw.githubusercontent.com/SBZed/Optimization-in-Python/master/memory_latency.png" width="1000" title="Memory Latency" alt="Memory Latency">
+</p>
 
 - If data is smaller, it has great chance to fit in cache and runtime will be faster.
 - **Tracemalloc** : `tracemalloc`
